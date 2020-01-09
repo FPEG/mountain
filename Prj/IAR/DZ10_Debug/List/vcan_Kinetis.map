@@ -1,75 +1,75 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  08/Jan/2020  20:19:36
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  08/Jan/2020  23:58:01
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
 #    Map file     =  
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
 #    Command line =  
-#        -f C:\Users\Terry\AppData\Local\Temp\EWCB5E.tmp
-#        (C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\CL_FUN.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\diskio.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\Display.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\ff.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\font.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\GRAY_CALCULATE.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\initialization.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\inv_mpu.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\inv_mpu_dmp_motion_driver.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\LCD12864.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\LCD12864lib.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\main.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\misc.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_adc.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_can.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_conf.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_dac.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_dma.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_DWT.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_flash.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_flexbus.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_ftm.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_gpio.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_i2c.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_lptmr.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_mcg.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_PIT.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_port.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_rtc.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_sdhc.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_spi.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_SysTick.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_uart.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_usb.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MK60_wdog.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MPU6050.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\MT9V032.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\My_I2C.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\SEEKFREE_18TFT.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\startup_MK60DZ10.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\system_MK60DZ10.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\Test.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\TFmini_Plus.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\UART.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\USB.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\USB_CDC.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\VCAN_key.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\VCAN_key_event.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\VCAN_LED.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\VCAN_MMA7455.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\VCAN_UI_VAR.o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj\vectors.o
+#        -f C:\Users\Terry\AppData\Local\Temp\EWC41A.tmp
+#        (C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\CL_FUN.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\diskio.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\Display.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\ff.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\font.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\GRAY_CALCULATE.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\initialization.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\inv_mpu.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\inv_mpu_dmp_motion_driver.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\LCD12864.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\LCD12864lib.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\main.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\misc.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_adc.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_can.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_conf.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_dac.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_dma.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_DWT.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_flash.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_flexbus.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_ftm.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_gpio.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_i2c.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_lptmr.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_mcg.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_PIT.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_port.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_rtc.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_sdhc.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_spi.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_SysTick.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_uart.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_usb.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MK60_wdog.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MPU6050.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\MT9V032.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\My_I2C.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\SEEKFREE_18TFT.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\startup_MK60DZ10.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\system_MK60DZ10.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\Test.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\TFmini_Plus.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\UART.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\USB.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\USB_CDC.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\VCAN_key.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\VCAN_key_event.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\VCAN_LED.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\VCAN_MMA7455.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\VCAN_UI_VAR.o
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj\vectors.o
 #        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
 #        --no_out_extension -o
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
 #        --map
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
 #        --config
-#        "C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\config
+#        "C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\config
 #        files\vcan_ROM_K60N512.icf"
-#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
+#        C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
 #        --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -119,7 +119,7 @@ initialize manually with packing = copy, complex ranges { section .textrw };
   .noinit              ro code        0x410     0x8  startup_MK60DZ10.o [1]
                                     - 0x418     0x8
 
-"P1":                                        0x3648
+"P1":                                        0x3aa4
   .text                ro code        0x418   0xc16  xprintflarge_nomb.o [2]
   .text                ro code       0x102e    0x3a  zero_init3.o [4]
   .text                ro code       0x1068    0x16  strchr.o [4]
@@ -139,84 +139,88 @@ initialize manually with packing = copy, complex ranges { section .textrw };
   .text                ro code       0x19bc     0x2  I64DivZer.o [4]
   .text                ro code       0x19c0   0x16a  DblAdd.o [3]
   .text                ro code       0x1b2c     0xc  XXexit.o [4]
-  .data_init                         0x1b38   0x858  <Block>
-    Initializer bytes  const         0x1b38   0x858  <for .data-1>
-  Veneer               ro code       0x2390     0x8  - Linker created -
-  .text                ro code       0x2398   0x3b4  MK60_mcg.o [1]
-  .text                ro code       0x274c   0x3a0  LCD12864.o [1]
-  .text                ro code       0x2aec   0x134  MK60_gpio.o [1]
-  .text                ro code       0x2c20    0x50  MK60_port.o [1]
-  .text                ro code       0x2c70    0x64  MK60_conf.o [1]
-  .text                ro code       0x2cd4    0x28  printf.o [2]
-  .text                ro code       0x2cfc    0x60  MK60_SysTick.o [1]
-  .text                ro code       0x2d5c   0x2b8  MK60_uart.o [1]
-  .text                ro code       0x3014   0x328  MT9V032.o [1]
-  .text                ro code       0x333c    0x50  misc.o [1]
-  .text                ro code       0x338c   0x248  MK60_dma.o [1]
-  .text                ro code       0x35d4   0x108  system_MK60DZ10.o [1]
-  .text                ro code       0x36dc    0x40  MK60_wdog.o [1]
-  .text                ro code       0x371c    0x48  main.o [1]
-  .rodata              const         0x3764    0x5c  MK60_SysTick.o [1]
-  .rodata              const         0x37c0    0x58  MK60_dma.o [1]
-  .rodata              const         0x3818    0x58  MK60_gpio.o [1]
-  .rodata              const         0x3870    0x58  MK60_uart.o [1]
-  .rodata              const         0x38c8    0x54  misc.o [1]
-  CodeRelocate                       0x391c    0x48  <Block>
-    Initializer bytes  const         0x391c    0x48  <for CodeRelocateRam-1>
-  .rodata              const         0x3964    0x3c  MK60_conf.o [1]
-  .text                ro code       0x39a0    0x28  data_init.o [4]
-  .rodata              const         0x39c8    0x24  MK60_conf.o [1]
-  .iar.init_table      const         0x39ec    0x10  - Linker created -
-  .text                ro code       0x39fc    0x1e  cmain.o [4]
-  .text                ro code       0x3a1a     0x4  low_level_init.o [2]
-  .text                ro code       0x3a1e     0x4  exit.o [2]
-  .text                ro code       0x3a24     0xa  cexit.o [4]
-  .text                ro code       0x3a2e    0x16  xprout.o [2]
-  .text                ro code       0x3a44     0xc  putchar.o [2]
-  .text                ro code       0x3a50     0xc  cstartup_M.o [4]
-  .rodata              const         0x3a5c     0x4  xlocale_c.o [2]
-  .rodata              const         0x3a60     0x0  zero_init3.o [4]
-                                   - 0x3a60  0x3648
+  .data_init                         0x1b38   0x864  <Block>
+    Initializer bytes  const         0x1b38   0x864  <for .data-1>
+  Veneer               ro code       0x239c     0x8  - Linker created -
+  .text                ro code       0x23a4   0x3b4  MK60_mcg.o [1]
+  .text                ro code       0x2758   0x3ac  MK60_ftm.o [1]
+  .text                ro code       0x2b04    0x50  MK60_port.o [1]
+  .text                ro code       0x2b54    0x64  MK60_conf.o [1]
+  .text                ro code       0x2bb8    0x28  printf.o [2]
+  .text                ro code       0x2be0    0x60  MK60_SysTick.o [1]
+  .text                ro code       0x2c40   0x2b8  MK60_uart.o [1]
+  .text                ro code       0x2ef8   0x3a0  LCD12864.o [1]
+  .text                ro code       0x3298   0x134  MK60_gpio.o [1]
+  .text                ro code       0x33cc   0x328  MT9V032.o [1]
+  .text                ro code       0x36f4    0x50  misc.o [1]
+  .text                ro code       0x3744   0x248  MK60_dma.o [1]
+  .text                ro code       0x398c   0x108  system_MK60DZ10.o [1]
+  .text                ro code       0x3a94    0x40  MK60_wdog.o [1]
+  .text                ro code       0x3ad4    0x94  main.o [1]
+  .rodata              const         0x3b68    0x5c  MK60_SysTick.o [1]
+  .rodata              const         0x3bc4    0x58  MK60_dma.o [1]
+  .rodata              const         0x3c1c    0x58  MK60_ftm.o [1]
+  .rodata              const         0x3c74    0x58  MK60_gpio.o [1]
+  .rodata              const         0x3ccc    0x58  MK60_uart.o [1]
+  .rodata              const         0x3d24    0x54  misc.o [1]
+  CodeRelocate                       0x3d78    0x48  <Block>
+    Initializer bytes  const         0x3d78    0x48  <for CodeRelocateRam-1>
+  .rodata              const         0x3dc0    0x3c  MK60_conf.o [1]
+  .text                ro code       0x3dfc    0x28  data_init.o [4]
+  .rodata              const         0x3e24    0x24  MK60_conf.o [1]
+  .iar.init_table      const         0x3e48    0x10  - Linker created -
+  .text                ro code       0x3e58    0x1e  cmain.o [4]
+  .text                ro code       0x3e76     0x4  low_level_init.o [2]
+  .text                ro code       0x3e7a     0x4  exit.o [2]
+  .text                ro code       0x3e80     0xa  cexit.o [4]
+  .text                ro code       0x3e8a    0x16  xprout.o [2]
+  .text                ro code       0x3ea0     0xc  putchar.o [2]
+  .text                ro code       0x3eac     0xc  cstartup_M.o [4]
+  .rodata              const         0x3eb8     0x4  xlocale_c.o [2]
+  .rodata              const         0x3ebc     0x0  zero_init3.o [4]
+                                   - 0x3ebc  0x3aa4
 
-"P2", part 1 of 2:                            0x8a0
-  .data                         0x1fff'0410   0x858  <Block>
-    .data-1                     0x1fff'0410   0x855  <Init block>
+"P2", part 1 of 2:                            0x8ac
+  .data                         0x1fff'0410   0x864  <Block>
+    .data-1                     0x1fff'0410   0x861  <Init block>
       .data            inited   0x1fff'0410   0x708  MK60_conf.o [1]
-      .data            inited   0x1fff'0b18    0x14  MK60_gpio.o [1]
-      .data            inited   0x1fff'0b2c    0x44  MK60_mcg.o [1]
-      .data            inited   0x1fff'0b70     0x4  MK60_mcg.o [1]
-      .data            inited   0x1fff'0b74    0x14  MK60_port.o [1]
-      .data            inited   0x1fff'0b88    0x18  MK60_uart.o [1]
-      .data            inited   0x1fff'0ba0    0x24  MT9V032.o [1]
-      .data            inited   0x1fff'0bc4    0x20  MT9V032.o [1]
-      .data            inited   0x1fff'0be4    0x38  xlocale_c.o [2]
-      .data            inited   0x1fff'0c1c    0x48  xfiles.o [2]
-      .data            inited   0x1fff'0c64     0x1  MT9V032.o [1]
-  CodeRelocateRam               0x1fff'0c68    0x48  <Block>
-    CodeRelocateRam-1           0x1fff'0c68    0x48  <Init block>
-      .textrw          inited   0x1fff'0c68    0x48  MK60_mcg.o [1]
-                              - 0x1fff'0cb0   0x8a0
+      .data            inited   0x1fff'0b18     0xc  MK60_ftm.o [1]
+      .data            inited   0x1fff'0b24    0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff'0b38    0x44  MK60_mcg.o [1]
+      .data            inited   0x1fff'0b7c     0x4  MK60_mcg.o [1]
+      .data            inited   0x1fff'0b80    0x14  MK60_port.o [1]
+      .data            inited   0x1fff'0b94    0x18  MK60_uart.o [1]
+      .data            inited   0x1fff'0bac    0x24  MT9V032.o [1]
+      .data            inited   0x1fff'0bd0    0x20  MT9V032.o [1]
+      .data            inited   0x1fff'0bf0    0x38  xlocale_c.o [2]
+      .data            inited   0x1fff'0c28    0x48  xfiles.o [2]
+      .data            inited   0x1fff'0c70     0x1  MT9V032.o [1]
+  CodeRelocateRam               0x1fff'0c74    0x48  <Block>
+    CodeRelocateRam-1           0x1fff'0c74    0x48  <Init block>
+      .textrw          inited   0x1fff'0c74    0x48  MK60_mcg.o [1]
+                              - 0x1fff'0cbc   0x8ac
 
-"P2", part 2 of 2:                           0x4f68
-  .bss                          0x1fff'0cb0  0x4f68  <Block>
-    .bss               zero     0x1fff'0cb0   0x400  LCD12864.o [1]
-    .bss               zero     0x1fff'10b0  0x4b00  MT9V032.o [1]
-    .bss               zero     0x1fff'5bb0     0x4  MT9V032.o [1]
-    .bss               zero     0x1fff'5bb4     0x4  system_MK60DZ10.o [1]
-    .bss               zero     0x1fff'5bb8     0x4  system_MK60DZ10.o [1]
-    .bss               zero     0x1fff'5bbc     0x4  system_MK60DZ10.o [1]
-    .bss               zero     0x1fff'5bc0     0x4  xfail_s.o [2]
-    .bss               zero     0x1fff'5bc4    0x50  xfiles.o [2]
-    .bss               zero     0x1fff'5c14     0x1  MT9V032.o [1]
-    .bss               zero     0x1fff'5c15     0x1  MT9V032.o [1]
-                              - 0x1fff'5c18  0x4f68
+"P2", part 2 of 2:                           0x4f74
+  .bss                          0x1fff'0cbc  0x4f74  <Block>
+    .bss               zero     0x1fff'0cbc   0x400  LCD12864.o [1]
+    .bss               zero     0x1fff'10bc     0xc  MK60_ftm.o [1]
+    .bss               zero     0x1fff'10c8  0x4b00  MT9V032.o [1]
+    .bss               zero     0x1fff'5bc8     0x4  MT9V032.o [1]
+    .bss               zero     0x1fff'5bcc     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff'5bd0     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff'5bd4     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff'5bd8     0x4  xfail_s.o [2]
+    .bss               zero     0x1fff'5bdc    0x50  xfiles.o [2]
+    .bss               zero     0x1fff'5c2c     0x1  MT9V032.o [1]
+    .bss               zero     0x1fff'5c2d     0x1  MT9V032.o [1]
+                              - 0x1fff'5c30  0x4f74
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x3a60     0x8'0000  0x7'c5a1
-  0x1fff'5c18  0x2001'0000  0x1'a3e9
+       0x3ebc     0x8'0000  0x7'c145
+  0x1fff'5c30  0x2001'0000  0x1'a3d1
 
 
 *******************************************************************************
@@ -226,8 +230,8 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x4f66:
-          0x1fff'0cb0  0x4f66
+    1 destination range, total size 0x4f72:
+          0x1fff'0cbc  0x4f72
 
 
 
@@ -241,24 +245,25 @@ command line/config:
     -------------------------------------------------------
     Total:
 
-C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj: [1]
+C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj: [1]
     LCD12864.o               928                      1 024
     MK60_SysTick.o            96                92
     MK60_conf.o              100             1 896    1 800
     MK60_dma.o               584                88
+    MK60_ftm.o               940               100       24
     MK60_gpio.o              308               108       20
     MK60_mcg.o               948       72      144       72
     MK60_port.o               80                20       20
     MK60_uart.o              696               112       24
     MK60_wdog.o               64
     MT9V032.o                808                69   19 275
-    main.o                    72
+    main.o                   148
     misc.o                    80                84
     startup_MK60DZ10.o         8
     system_MK60DZ10.o        264                         12
     vectors.o                                1 040
     -------------------------------------------------------
-    Total:                 5 036       72    3 653   22 247
+    Total:                 6 052       72    3 753   22 271
 
 dl7M_tlf.a: [2]
     abort.o                    6
@@ -304,7 +309,7 @@ rt7M_tl.a: [4]
     Gaps                      22
     Linker created             8                19
 -----------------------------------------------------------
-    Grand Total:          11 140       72    3 804   22 459
+    Grand Total:          12 156       72    3 904   22 483
 
 
 *******************************************************************************
@@ -313,53 +318,55 @@ rt7M_tl.a: [4]
 
 Entry                       Address    Size  Type      Object
 -----                       -------    ----  ----      ------
-.bss$$Base              0x1fff'0cb0           --   Gb  - Linker created -
-.bss$$Limit             0x1fff'5c18           --   Gb  - Linker created -
+.bss$$Base              0x1fff'0cbc           --   Gb  - Linker created -
+.bss$$Limit             0x1fff'5c30           --   Gb  - Linker created -
 .data$$Base             0x1fff'0410           --   Gb  - Linker created -
-.data$$Limit            0x1fff'0c68           --   Gb  - Linker created -
+.data$$Limit            0x1fff'0c74           --   Gb  - Linker created -
 .data_init$$Base             0x1b38           --   Gb  - Linker created -
-.data_init$$Limit            0x2390           --   Gb  - Linker created -
-.iar.init_table$$Base        0x39ec           --   Gb  - Linker created -
-.iar.init_table$$Limit       0x39fc           --   Gb  - Linker created -
-?main                        0x39fd          Code  Gb  cmain.o [4]
-ASSERT_FAILED_STR            0x39c8    0x24  Data  Gb  MK60_conf.o [1]
-CodeRelocate$$Base           0x391c           --   Gb  - Linker created -
-CodeRelocate$$Limit          0x3964           --   Gb  - Linker created -
-CodeRelocateRam$$Base   0x1fff'0c68           --   Gb  - Linker created -
-CodeRelocateRam$$Limit  0x1fff'0cb0           --   Gb  - Linker created -
-GET_CFG                 0x1fff'0bc4    0x20  Data  Gb  MT9V032.o [1]
-GPIOX                   0x1fff'0b18    0x14  Data  Gb  MK60_gpio.o [1]
-LCD_DLY_ms                   0x285d    0x18  Code  Gb  LCD12864.o [1]
-LCD_Fill                     0x281b    0x42  Code  Gb  LCD12864.o [1]
-LCD_Init                     0x2875   0x100  Code  Gb  LCD12864.o [1]
-LCD_Set_Pos                  0x27eb    0x30  Code  Gb  LCD12864.o [1]
-LCD_WrCmd                    0x279d    0x4e  Code  Gb  LCD12864.o [1]
-LCD_WrDat                    0x274d    0x4e  Code  Gb  LCD12864.o [1]
-LCD_show_ZZF_image           0x2a65    0x7e  Code  Gb  LCD12864.o [1]
+.data_init$$Limit            0x239c           --   Gb  - Linker created -
+.iar.init_table$$Base        0x3e48           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x3e58           --   Gb  - Linker created -
+?main                        0x3e59          Code  Gb  cmain.o [4]
+ASSERT_FAILED_STR            0x3e24    0x24  Data  Gb  MK60_conf.o [1]
+CodeRelocate$$Base           0x3d78           --   Gb  - Linker created -
+CodeRelocate$$Limit          0x3dc0           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff'0c74           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff'0cbc           --   Gb  - Linker created -
+FTMN                    0x1fff'0b18     0xc  Data  Gb  MK60_ftm.o [1]
+FTM_port_mux                 0x2759   0x114  Code  Lc  MK60_ftm.o [1]
+GET_CFG                 0x1fff'0bd0    0x20  Data  Gb  MT9V032.o [1]
+GPIOX                   0x1fff'0b24    0x14  Data  Gb  MK60_gpio.o [1]
+LCD_DLY_ms                   0x3009    0x18  Code  Gb  LCD12864.o [1]
+LCD_Fill                     0x2fc7    0x42  Code  Gb  LCD12864.o [1]
+LCD_Init                     0x3021   0x100  Code  Gb  LCD12864.o [1]
+LCD_Set_Pos                  0x2f97    0x30  Code  Gb  LCD12864.o [1]
+LCD_WrCmd                    0x2f49    0x4e  Code  Gb  LCD12864.o [1]
+LCD_WrDat                    0x2ef9    0x4e  Code  Gb  LCD12864.o [1]
+LCD_show_ZZF_image           0x3211    0x7e  Code  Gb  LCD12864.o [1]
 LoadInt                       0x5bd    0x7a  Code  Lc  xprintflarge_nomb.o [2]
-MT9V032_CFG             0x1fff'0ba0    0x24  Data  Gb  MT9V032.o [1]
-NVIC_DisableIRQ              0x302d    0x18  Code  Lc  MT9V032.o [1]
-NVIC_EnableIRQ               0x371d    0x16  Code  Lc  main.o [1]
-NVIC_EnableIRQ               0x2d5d    0x18  Code  Lc  MK60_uart.o [1]
-NVIC_EnableIRQ               0x3015    0x18  Code  Lc  MT9V032.o [1]
-NVIC_SetPriority             0x3045    0x30  Code  Lc  MT9V032.o [1]
-OLED_DrawPoint               0x29c3    0xa2  Code  Gb  LCD12864.o [1]
-OLED_GRAM               0x1fff'0cb0   0x400  Data  Gb  LCD12864.o [1]
-OLED_Refresh_Gram            0x2975    0x4e  Code  Gb  LCD12864.o [1]
-PORTX                   0x1fff'0b74    0x14  Data  Gb  MK60_port.o [1]
-Region$$Table$$Base          0x39ec           --   Gb  - Linker created -
-Region$$Table$$Limit         0x39fc           --   Gb  - Linker created -
+MT9V032_CFG             0x1fff'0bac    0x24  Data  Gb  MT9V032.o [1]
+NVIC_DisableIRQ              0x33e5    0x18  Code  Lc  MT9V032.o [1]
+NVIC_EnableIRQ               0x3ad5    0x16  Code  Lc  main.o [1]
+NVIC_EnableIRQ               0x2c41    0x18  Code  Lc  MK60_uart.o [1]
+NVIC_EnableIRQ               0x33cd    0x18  Code  Lc  MT9V032.o [1]
+NVIC_SetPriority             0x33fd    0x30  Code  Lc  MT9V032.o [1]
+OLED_DrawPoint               0x316f    0xa2  Code  Gb  LCD12864.o [1]
+OLED_GRAM               0x1fff'0cbc   0x400  Data  Gb  LCD12864.o [1]
+OLED_Refresh_Gram            0x3121    0x4e  Code  Gb  LCD12864.o [1]
+PORTX                   0x1fff'0b80    0x14  Data  Gb  MK60_port.o [1]
+Region$$Table$$Base          0x3e48           --   Gb  - Linker created -
+Region$$Table$$Limit         0x3e58           --   Gb  - Linker created -
 Reset_Handler                 0x411          Code  Gb  startup_MK60DZ10.o [1]
-UART5_RX_TX_IRQHandler       0x3121    0x24  Code  Gb  MT9V032.o [1]
-UARTN                   0x1fff'0b88    0x18  Data  Gb  MK60_uart.o [1]
-VSYNC                        0x32cf    0x12  Code  Gb  MT9V032.o [1]
-ZZF_Init                     0x30cb    0x26  Code  Gb  MT9V032.o [1]
+UART5_RX_TX_IRQHandler       0x34d9    0x24  Code  Gb  MT9V032.o [1]
+UARTN                   0x1fff'0b94    0x18  Data  Gb  MK60_uart.o [1]
+VSYNC                        0x3687    0x12  Code  Gb  MT9V032.o [1]
+ZZF_Init                     0x3483    0x26  Code  Gb  MT9V032.o [1]
 _GenldLargeNoMb               0xd4d   0x24c  Code  Lc  xprintflarge_nomb.o [2]
 _LdtobLargeNoMb               0xaf3   0x232  Code  Lc  xprintflarge_nomb.o [2]
 _LitobLargeNoMb               0x9a3   0x10a  Code  Lc  xprintflarge_nomb.o [2]
-_Locale_lconv           0x1fff'0be4    0x38  Data  Lc  xlocale_c.o [2]
+_Locale_lconv           0x1fff'0bf0    0x38  Data  Lc  xlocale_c.o [2]
 _PrintfLargeNoMb              0x419   0x19e  Code  Gb  xprintflarge_nomb.o [2]
-_Prout                       0x3a2f    0x16  Code  Gb  xprout.o [2]
+_Prout                       0x3e8b    0x16  Code  Gb  xprout.o [2]
 _PutcharsLargeNoMb            0xf99    0x2e  Code  Lc  xprintflarge_nomb.o [2]
 _PutfldLargeNoMb              0x637   0x260  Code  Lc  xprintflarge_nomb.o [2]
 _PuttxtLargeNoMb              0x897   0x10c  Code  Lc  xprintflarge_nomb.o [2]
@@ -377,96 +384,99 @@ __aeabi_memcpy4              0x1545          Code  Gb  ABImemcpy.o [4]
 __aeabi_memcpy8              0x1545          Code  Gb  ABImemcpy.o [4]
 __aeabi_ui2d                 0x18ad          Code  Gb  U32ToDbl.o [3]
 __aeabi_uldivmod             0x1151          Code  Gb  I64DivMod.o [4]
-__cmain                      0x39fd          Code  Gb  cmain.o [4]
+__cmain                      0x3e59          Code  Gb  cmain.o [4]
 __code_start__ {Abs}          0x410          Data  Gb  <internal module>
 __exit                       0x1b2d          Code  Gb  XXexit.o [4]
 __iar_Fail_s                 0x1081    0x1c  Code  Gb  xfail_s.o [2]
 __iar_Memchr                 0x10f9          Code  Gb  memchr.o [4]
-__iar_Stdout            0x1fff'0c1c    0x48  Data  Gb  xfiles.o [2]
+__iar_Stdout            0x1fff'0c28    0x48  Data  Gb  xfiles.o [2]
 __iar_Strchr                 0x1069          Code  Gb  strchr.o [4]
 __iar_dadd                   0x18d9          Code  Gb  DblSub.o [3]
-__iar_data_init3             0x39a1    0x28  Code  Gb  data_init.o [4]
+__iar_data_init3             0x3dfd    0x28  Code  Gb  data_init.o [4]
 __iar_dsub                   0x19c1          Code  Gb  DblAdd.o [3]
 __iar_dsubStart              0x19d3          Code  Gb  DblAdd.o [3]
 __iar_frexp                  0x15d9          Code  Gb  frexp.o [3]
 __iar_frexp64                0x15cd          Code  Gb  frexp.o [3]
 __iar_frexpl                 0x15d9          Code  Gb  frexp.o [3]
-__iar_program_start          0x3a51          Code  Gb  cstartup_M.o [4]
+__iar_program_start          0x3ead          Code  Gb  cstartup_M.o [4]
 __iar_zero_init3             0x102f    0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init             0x3a1b     0x4  Code  Gb  low_level_init.o [2]
+__low_level_init             0x3e77     0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0   0x410  Data  Gb  vectors.o [1]
-_call_main                   0x3a09          Code  Gb  cmain.o [4]
-_exit                        0x3a25          Code  Gb  cexit.o [4]
-_main                        0x3a17          Code  Gb  cmain.o [4]
+_call_main                   0x3e65          Code  Gb  cmain.o [4]
+_exit                        0x3e81          Code  Gb  cexit.o [4]
+_main                        0x3e73          Code  Gb  cmain.o [4]
 abort                        0x19b5     0x6  Code  Gb  abort.o [2]
-assert_failed                0x2c71    0x1a  Code  Gb  MK60_conf.o [1]
-bus_clk_khz             0x1fff'5bbc     0x4  Data  Gb  system_MK60DZ10.o [1]
-camera_init                  0x31e1    0xee  Code  Gb  MT9V032.o [1]
-common_startup               0x3621    0x84  Code  Gb  system_MK60DZ10.o [1]
-core_clk_khz            0x1fff'5bb4     0x4  Data  Gb  system_MK60DZ10.o [1]
-core_clk_mhz            0x1fff'5bb8     0x4  Data  Gb  system_MK60DZ10.o [1]
-default_isr                  0x2c9f    0x26  Code  Gb  MK60_conf.o [1]
-dma_gpio_input_init          0x338d    0x5c  Code  Lc  MK60_dma.o [1]
-dma_portx2buff_init          0x33e9   0x1b6  Code  Gb  MK60_dma.o [1]
-dma_repeat                   0x3075    0x56  Code  Lc  MT9V032.o [1]
-exit                         0x3a1f     0x4  Code  Gb  exit.o [2]
-fputc                        0x2c8b    0x14  Code  Gb  MK60_conf.o [1]
+assert_failed                0x2b55    0x1a  Code  Gb  MK60_conf.o [1]
+bus_clk_khz             0x1fff'5bd4     0x4  Data  Gb  system_MK60DZ10.o [1]
+camera_init                  0x3599    0xee  Code  Gb  MT9V032.o [1]
+common_startup               0x39d9    0x84  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff'5bcc     0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff'5bd0     0x4  Data  Gb  system_MK60DZ10.o [1]
+default_isr                  0x2b83    0x26  Code  Gb  MK60_conf.o [1]
+dma_gpio_input_init          0x3745    0x5c  Code  Lc  MK60_dma.o [1]
+dma_portx2buff_init          0x37a1   0x1b6  Code  Gb  MK60_dma.o [1]
+dma_repeat                   0x342d    0x56  Code  Lc  MT9V032.o [1]
+exit                         0x3e7b     0x4  Code  Gb  exit.o [2]
+fputc                        0x2b6f    0x14  Code  Gb  MK60_conf.o [1]
 frexp                        0x15cd          Code  Gb  frexp.o [3]
 frexpl                       0x15cd          Code  Gb  frexp.o [3]
-get_config                   0x317f    0x62  Code  Gb  MT9V032.o [1]
-gpio_init                    0x2aed    0xb6  Code  Gb  MK60_gpio.o [1]
-gpio_set                     0x2ba3    0x76  Code  Gb  MK60_gpio.o [1]
-image_buff              0x1fff'10b0  0x4b00  Data  Gb  MT9V032.o [1]
+ftm_mod                 0x1fff'10bc     0xc  Data  Lc  MK60_ftm.o [1]
+ftm_pwm_duty                 0x29f7    0xf6  Code  Gb  MK60_ftm.o [1]
+ftm_pwm_init                 0x286d   0x18a  Code  Gb  MK60_ftm.o [1]
+get_config                   0x3537    0x62  Code  Gb  MT9V032.o [1]
+gpio_init                    0x3299    0xb6  Code  Gb  MK60_gpio.o [1]
+gpio_set                     0x334f    0x76  Code  Gb  MK60_gpio.o [1]
+image_buff              0x1fff'10c8  0x4b00  Data  Gb  MT9V032.o [1]
 localeconv                   0x19ad     0x4  Code  Gb  xlocale_c.o [2]
-main                         0x3733    0x28  Code  Gb  main.o [1]
-mcg_cfg                 0x1fff'0b2c    0x44  Data  Gb  MK60_mcg.o [1]
-mcg_div                 0x1fff'0b70     0x4  Data  Gb  MK60_mcg.o [1]
-mcg_div_count                0x2399   0x300  Code  Gb  MK60_mcg.o [1]
+main                         0x3aeb    0x72  Code  Gb  main.o [1]
+mcg_cfg                 0x1fff'0b38    0x44  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff'0b7c     0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count                0x23a5   0x300  Code  Gb  MK60_mcg.o [1]
 memchr                       0x10f9          Code  Gb  memchr.o [4]
 mt9v032_cof_uart_interrupt
-                             0x3145    0x3a  Code  Gb  MT9V032.o [1]
-mt9v032_finish_flag     0x1fff'5c15     0x1  Data  Gb  MT9V032.o [1]
-obuf                    0x1fff'5bc4    0x50  Data  Lc  xfiles.o [2]
-pll_init                     0x2699    0x96  Code  Gb  MK60_mcg.o [1]
-port_init                    0x2c21    0x48  Code  Gb  MK60_port.o [1]
-printf                       0x2cd5    0x28  Code  Gb  printf.o [2]
-putchar                      0x3a45     0xc  Code  Gb  putchar.o [2]
-receive                 0x1fff'5bb0     0x4  Data  Gb  MT9V032.o [1]
-receive_num             0x1fff'5c14     0x1  Data  Gb  MT9V032.o [1]
-row_finished                 0x32e1    0x10  Code  Gb  MT9V032.o [1]
+                             0x34fd    0x3a  Code  Gb  MT9V032.o [1]
+mt9v032_finish_flag     0x1fff'5c2d     0x1  Data  Gb  MT9V032.o [1]
+obuf                    0x1fff'5bdc    0x50  Data  Lc  xfiles.o [2]
+pll_init                     0x26a5    0x96  Code  Gb  MK60_mcg.o [1]
+port_init                    0x2b05    0x48  Code  Gb  MK60_port.o [1]
+printf                       0x2bb9    0x28  Code  Gb  printf.o [2]
+putchar                      0x3ea1     0xc  Code  Gb  putchar.o [2]
+receive                 0x1fff'5bc8     0x4  Data  Gb  MT9V032.o [1]
+receive_num             0x1fff'5c2c     0x1  Data  Gb  MT9V032.o [1]
+row_finished                 0x3699    0x10  Code  Gb  MT9V032.o [1]
 scale                         0xaad    0x46  Code  Lc  xprintflarge_nomb.o [2]
-sec_hand                0x1fff'5bc0     0x4  Data  Lc  xfail_s.o [2]
-set_sys_dividers        0x1fff'0c69    0x48  Code  Gb  MK60_mcg.o [1]
-set_vector_handler           0x335f    0x22  Code  Gb  misc.o [1]
-start                        0x35d5    0x1e  Code  Gb  system_MK60DZ10.o [1]
+sec_hand                0x1fff'5bd8     0x4  Data  Lc  xfail_s.o [2]
+set_sys_dividers        0x1fff'0c75    0x48  Code  Gb  MK60_mcg.o [1]
+set_vector_handler           0x3717    0x22  Code  Gb  misc.o [1]
+start                        0x398d    0x1e  Code  Gb  system_MK60DZ10.o [1]
 strchr                       0x1069          Code  Gb  strchr.o [4]
 strlen                       0x10c1          Code  Gb  strlen.o [4]
-sysinit                      0x35f3    0x2e  Code  Gb  system_MK60DZ10.o [1]
-systick_delay                0x2cfd    0x32  Code  Gb  MK60_SysTick.o [1]
-systick_delay_ms             0x2d2f    0x18  Code  Gb  MK60_SysTick.o [1]
-uart_getchar                 0x2f6b    0x1e  Code  Gb  MK60_uart.o [1]
-uart_init                    0x2d75   0x1f6  Code  Gb  MK60_uart.o [1]
-uart_putbuff                 0x2fa5    0x26  Code  Gb  MK60_uart.o [1]
-uart_putchar                 0x2f89    0x1c  Code  Gb  MK60_uart.o [1]
-uart_receive_flag       0x1fff'0c64     0x1  Data  Gb  MT9V032.o [1]
-uart_rx_irq_en               0x2fcb    0x2e  Code  Gb  MK60_uart.o [1]
+sysinit                      0x39ab    0x2e  Code  Gb  system_MK60DZ10.o [1]
+systick_delay                0x2be1    0x32  Code  Gb  MK60_SysTick.o [1]
+systick_delay_ms             0x2c13    0x18  Code  Gb  MK60_SysTick.o [1]
+uart_getchar                 0x2e4f    0x1e  Code  Gb  MK60_uart.o [1]
+uart_init                    0x2c59   0x1f6  Code  Gb  MK60_uart.o [1]
+uart_putbuff                 0x2e89    0x26  Code  Gb  MK60_uart.o [1]
+uart_putchar                 0x2e6d    0x1c  Code  Gb  MK60_uart.o [1]
+uart_receive_flag       0x1fff'0c70     0x1  Data  Gb  MT9V032.o [1]
+uart_rx_irq_en               0x2eaf    0x2e  Code  Gb  MK60_uart.o [1]
 vector_str              0x1fff'0410   0x708  Data  Gb  MK60_conf.o [1]
-wdog_disable                 0x36dd    0x14  Code  Gb  MK60_wdog.o [1]
-wdog_unlock                  0x36f1    0x20  Code  Lc  MK60_wdog.o [1]
-write_vtor                   0x333d    0x22  Code  Gb  misc.o [1]
-zDMA0_IRQHandler             0x310d    0x12  Code  Gb  MT9V032.o [1]
-zPORTC_IRQHandler            0x30f1    0x1c  Code  Gb  MT9V032.o [1]
+wdog_disable                 0x3a95    0x14  Code  Gb  MK60_wdog.o [1]
+wdog_unlock                  0x3aa9    0x20  Code  Lc  MK60_wdog.o [1]
+write_vtor                   0x36f5    0x22  Code  Gb  misc.o [1]
+zDMA0_IRQHandler             0x34c5    0x12  Code  Gb  MT9V032.o [1]
+zPORTC_IRQHandler            0x34a9    0x1c  Code  Gb  MT9V032.o [1]
 
 
-[1] = C:\Users\Terry\Documents\smu\大二\智能车\iar_project\总钻风采集3\Prj\IAR\DZ10_Debug\Obj
+[1] = C:\Users\Terry\Documents\smu\大二\智能车\iar_project\mountain\Prj\IAR\DZ10_Debug\Obj
 [2] = dl7M_tlf.a
 [3] = m7M_tl.a
 [4] = rt7M_tl.a
 
-  11 140 bytes of readonly  code memory
+  12 156 bytes of readonly  code memory
       72 bytes of readwrite code memory
-   3 804 bytes of readonly  data memory
-  22 459 bytes of readwrite data memory
+   3 904 bytes of readonly  data memory
+  22 483 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
