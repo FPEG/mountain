@@ -41,23 +41,23 @@ void  main(void)
 	ZZF_Init();
 	LCD_Init();        //OLED 屏幕初始化
 	enable_irq(PORTA_IRQn);//开图像采集中断；
-#pragma region 阿瑟东
-#pragma endregion r
 	while (1)
 	{
 		if (mt9v032_finish_flag)
 		{
-		  //image_buff[60][90]=0;
-			LCD_show_ZZF_image();
-			if(image_buff[60][80]>60)
-			{
-			ftm_pwm_duty(FTM2, FTM_CH0, 70);//右转
-			}
-			else
-			{
-			  ftm_pwm_duty(FTM2, FTM_CH0, 85);//左转
-			}
-			
+			//image_buff[60][90]=0;
+			//LCD_show_ZZF_image();
+			Threshold = adapt_otsuThreshold(*image_buff, 120, 160, NULL);
+			LCD_show_ZZF_image_t(Threshold);
+			//if (image_buff[60][80] > 60)
+			//{
+			//	ftm_pwm_duty(FTM2, FTM_CH0, 70);//右转
+			//}
+			//else
+			//{
+			//	ftm_pwm_duty(FTM2, FTM_CH0, 85);//左转
+			//}
+
 			mt9v032_finish_flag = 0;
 			enable_irq(PORTC_IRQn);
 		}

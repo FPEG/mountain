@@ -16,7 +16,7 @@
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </JLinkDriver>
     <DebugChecksum>
-        <Checksum>3360366285</Checksum>
+        <Checksum>523576472</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -35,6 +35,9 @@
     <array_types>
         <Fmt0>uint8[160]	3	0</Fmt0>
     </array_types>
+    <watch_formats>
+        <Fmt0>{W}42:Threshold	3	0</Fmt0>
+    </watch_formats>
     <Trace1>
         <Enabled>0</Enabled>
         <ShowSource>1</ShowSource>

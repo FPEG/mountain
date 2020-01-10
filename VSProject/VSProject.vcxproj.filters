@@ -24,12 +24,18 @@
     <ClInclude Include="common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LCD12864.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="GRAY_CALCULATE.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LCD12864.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
